@@ -1,14 +1,16 @@
 import "./globals.css";
 export const metadata = {
-  title: "Lws-Assignment-Seven",
+  title: "LWS Xstream - Video Streaming",
   description:
-    "Lws-Assignment-Seven is about route interception and internalization of data.",
+    "LWS Xstream is a video streaming platform that allows you to watch videos online for free. Our platform is easy to use and has a simple interface that makes it easy to find and watch videos.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-colorBg text-white font-exo container mx-auto px-4 py-4">
+        {children}
+      </body>
     </html>
   );
 }
